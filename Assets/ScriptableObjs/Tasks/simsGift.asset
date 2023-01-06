@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdec9ab683dc21b4e895fe10df91d9da, type: 3}
+  m_Name: simsGift
+  m_EditorClassIdentifier: 
+  taskDescripton: <color=#b4ff00>wait for a call from sim</color>
+  originalTaskDesc: <color=#b4ff00>wait for a call from sim</color>
+  nextTask: {fileID: 0}
+  taskComplete: 0
+  currentTasks:
+  - dialogueGiverName: 
+    objectInteract: {fileID: 5510143187701873169, guid: d4d5838273e5c3c42bfc2319b238115e, type: 3}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 5510143187701873169, guid: d4d5838273e5c3c42bfc2319b238115e, type: 3}
+      audioClip: {fileID: 8300000, guid: bd62ed42e56acea4b9129ee93f4df8b4, type: 3}
+      loop: 1
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: sim
+    objectInteract: {fileID: 0}
+    taskDescUpdate: <s><color=#b4ff00>wait for a call from sim</color></s>
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - hey <color=#ccccff>marsbar calvin!</color>
+    - <color=#ff0000>merry</color> <color=#34a65f>christmas</color>!!!
+    - while every holiday is a drag,
+    - you made this one much more comforting.
+    - being able to share life's hardships with my best friend
+    - and finally feeling (without a doubt) trusting enough to do so,
+    - is a gift that bears no price tag.
+    - you mean so much to me.
+    - sorry for the late present...
+    - hopefully it was worth the wait
+    - but also! ... i have another gift!!
+    - i just sent it over
+    - it will be coming through the mail slot at the front door
+    - it has an important note attached to it
+    - so make sure you check the <color=#b4ff00>item's description</color> in your
+      <color=#b4ff00>inventory</color>
+    - (by placing it in a slot and right clicking)
+    - enjoy!
+    dialogueOptionsList: []
+  - dialogueGiverName: 
+    objectInteract: {fileID: 9187909670531724083, guid: b96328aec105f7146b3616d945cafa20, type: 3}
+    taskDescUpdate: go get sim's present!
+    playAudio:
+      audioSource: {fileID: 4850321863149069953, guid: 8160755bf3eed164180b8bd0b967abac, type: 3}
+      audioClip: {fileID: 8300000, guid: 1273e4a14a4f6d9419a68df1bff5f4b4, type: 3}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: robuxSpawner
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: 
+    objectInteract: {fileID: 0}
+    taskDescUpdate: <color=#ff0000>happy</color> <color=#34a65f>holidays</color>!!!
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []

@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdec9ab683dc21b4e895fe10df91d9da, type: 3}
+  m_Name: checkingOnEvrin
+  m_EditorClassIdentifier: 
+  taskDescripton: ...
+  originalTaskDesc: find <color=#b4ff00>your binoculars</color>
+  nextTask: {fileID: 11400000, guid: 859c59e232841544b9d6da5aa900cb0b, type: 2}
+  taskComplete: 1
+  currentTasks:
+  - dialogueGiverName: 
+    objectInteract: {fileID: 9187909670531724083, guid: 910b5e59005b64843a2f6f7a8f2ed0d8, type: 3}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: binocularSpawner
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: 
+    objectInteract: {fileID: 0}
+    taskDescUpdate: now, where's <color=#b4ff00>evrin?</color>
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: evrin
+      range: 0
+    activateObject:
+      objectName: Environment/house_evrin/event_evrinshomeobjs
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: 
+    objectInteract: {fileID: 5510143187701873169, guid: d4d5838273e5c3c42bfc2319b238115e, type: 3}
+    taskDescUpdate: go <color=#b4ff00>talk to the toad</color>
+    playAudio:
+      audioSource: {fileID: 4751558088939193714, guid: b38cf0eea297f064598937e8144c3c1a, type: 3}
+      audioClip: {fileID: 8300000, guid: 88a01159fdd0da34c8e7c821dbcf8598, type: 3}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: Environment/house_evrin/event_evrinshomeobjs
+      deactivate: 1
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: <s>go <color=#b4ff00>talk to the toad</color></s>
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - ...
+    dialogueOptionsList:
+    - dialogueOption: evrin saw me
+      dialogueList:
+      - 
+      goToNext: 1
+      giveTaskComplete: 0
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - ........
+    - say kidding.. right?
+    dialogueOptionsList:
+    - dialogueOption: no
+      dialogueList:
+      - 
+      goToNext: 1
+      giveTaskComplete: 0
+    - dialogueOption: i wish
+      dialogueList:
+      - 
+      goToNext: 1
+      giveTaskComplete: 0
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - <color=#ccccff>mars</color>
+    - they weren't meant to see <color=#ccccff>you</color>
+    - .. doesn't matter
+    - we're going to have to go through with <color=#b4ff00>the plan</color> anyways
+    - <color=#b4ff00>they're</color> going to be onto us but we've spent <color=#b4ff00>too
+      much time</color> on this to wait it out
+    dialogueOptionsList:
+    - dialogueOption: they
+      dialogueList:
+      - we've been watching evrin for far too long to doubt their capabilities
+      - i would be extremely careful
+      - watch your back
+      goToNext: 0
+      giveTaskComplete: 0
+    - dialogueOption: the plan
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 0
+    - dialogueOption: too much time
+      dialogueList:
+      - i've spent months perfecting this plan
+      - then you come and toss it down the drain...
+      - thanks a lot
+      goToNext: 0
+      giveTaskComplete: 0
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - the plan??
+    - oh the plan.. oh right...
+    - yeah you should already know what the plan is
+    - go on..
+    dialogueOptionsList: []
+  - dialogueGiverName: 
+    objectInteract: {fileID: 9187909670531724083, guid: afbf18bcc5f826c42bf538593d251aa9, type: 3}
+    taskDescUpdate: get the <color=#ff0000>arson kit</color>
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: arsonKitSpawner
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: ...
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - shit.. <color=#ccccff>mars</color>... come to the phone quick
+    dialogueOptionsList: []
+  - dialogueGiverName: 
+    objectInteract: {fileID: 5510143187701873169, guid: d4d5838273e5c3c42bfc2319b238115e, type: 3}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - ...
+    dialogueOptionsList:
+    - dialogueOption: got the kit
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 0
+    - dialogueOption: let's burn evrin
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 0
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - slow.. your.. roll...
+    - there's a car parked outside my spot right now
+    - listen... the game's too hot
+    - we're going to have to <color=#b4ff00>move the plan back</color>
+    - i got <color=#b4ff00>guys pacing</color> up and down the apartment hall right
+      now
+    dialogueOptionsList:
+    - dialogueOption: move the plan back
+      dialogueList:
+      - things are way too hot
+      - evrin spotted you
+      - doubt it was even your fault
+      - creepy bastard was probably in on it from day one
+      goToNext: 0
+      giveTaskComplete: 0
+    - dialogueOption: what now
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 0
+    - dialogueOption: guys
+      dialogueList:
+      - who knows.. probably splooge's guys
+      - i doubt evrin can afford a crew for this sort of thing
+      - they're barely scraping by
+      - don't worry about me
+      - i got a <color=#ff0000>burner</color>.
+      - and i'll be ready to chuck it soon as they blow through this door
+      goToNext: 0
+      giveTaskComplete: 0
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - what now?
+    - what now is... i sit here and watch my door
+    - waiting for the bastards to come in and i get the jump on em
+    - you've done enough
+    - <color=#ccccff>mars</color>.. by the way
+    - <color=#ccccff>sim</color> dropped by before i called
+    - she mentioned something about a gift...
+    - wouldn't be surprised if she called you soon
+    - anyways
+    - catch you later
+    dialogueOptionsList:
+    - dialogueOption: '[hang up]'
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 1

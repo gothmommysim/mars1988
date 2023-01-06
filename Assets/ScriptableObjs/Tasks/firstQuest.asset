@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdec9ab683dc21b4e895fe10df91d9da, type: 3}
+  m_Name: firstQuest
+  m_EditorClassIdentifier: 
+  taskDescripton: <s>answer <color=#b4ff00>the phone</color></s>
+  originalTaskDesc: answer <color=#b4ff00>the phone</color>
+  nextTask: {fileID: 11400000, guid: 293925a4dd12a5f42838247e20e58569, type: 2}
+  taskComplete: 0
+  currentTasks:
+  - dialogueGiverName: 
+    objectInteract: {fileID: 5510143187701873169, guid: d4d5838273e5c3c42bfc2319b238115e, type: 3}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 5510143187701873169, guid: d4d5838273e5c3c42bfc2319b238115e, type: 3}
+      audioClip: {fileID: 8300000, guid: bd62ed42e56acea4b9129ee93f4df8b4, type: 3}
+      loop: 1
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList: []
+    dialogueOptionsList: []
+  - dialogueGiverName: ???
+    objectInteract: {fileID: 0}
+    taskDescUpdate: <s>answer <color=#b4ff00>the phone</color></s>
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - hey <color=#ccccff>mars</color>
+    - it's the toad...
+    dialogueOptionsList: []
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - what's that music in the background??
+    - nevermind
+    - your neighbor <color=#b4ff00>evrin</color> was last seen taking <color=#b4ff00>cassettes</color>
+      to apple dog deli
+    - there might be <color=#b4ff00>collusion</color> going on...
+    dialogueOptionsList:
+    - dialogueOption: cassettes
+      dialogueList:
+      - apple dog deli has a lot of unsavory clientele
+      - who knows what could be on those cassette tapes...
+      goToNext: 0
+      giveTaskComplete: 0
+    - dialogueOption: evrin
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 0
+    - dialogueOption: collusion
+      dialogueList:
+      - evrin's a shady figure
+      - you know that better than anyone...
+      - let's not put it past them
+      goToNext: 0
+      giveTaskComplete: 0
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - evrin recently started a <color=#b4ff00>warehouse position</color> at <color=#b4ff00>splooge
+      mcduckalds</color> making <color=#b4ff00>$7 an hour</color>
+    dialogueOptionsList:
+    - dialogueOption: $7 an hour
+      dialogueList:
+      - yeah i was surprised too
+      - splooge is paying pretty good these days...
+      - almost as good as wahlbart
+      goToNext: 0
+      giveTaskComplete: 0
+    - dialogueOption: splooge mcduckalds
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 0
+    - dialogueOption: warehouse
+      dialogueList:
+      - my guess is as good as yours
+      - all i know is...
+      - splooge keeps some of their most nefarious products behind closed doors
+      - and evrin is behind those closed doors
+      goToNext: 0
+      giveTaskComplete: 0
+  - dialogueGiverName: the toad
+    objectInteract: {fileID: 0}
+    taskDescUpdate: 
+    playAudio:
+      audioSource: {fileID: 0}
+      audioClip: {fileID: 0}
+      loop: 0
+    observeObject:
+      objectName: 
+      range: 0
+    activateObject:
+      objectName: 
+      deactivate: 0
+    dialogueList:
+    - splooge mcduckalds is known for manufacturing home essentials
+    - like boy milk
+    - you get the picture...
+    - i'll stay on the line
+    - go see if evrin's back from work yet
+    dialogueOptionsList:
+    - dialogueOption: got it
+      dialogueList: []
+      goToNext: 1
+      giveTaskComplete: 1

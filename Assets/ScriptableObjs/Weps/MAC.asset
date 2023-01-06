@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c490caa663430438214279831c7208, type: 3}
+  m_Name: MAC
+  m_EditorClassIdentifier: 
+  itemName: MAC
+  itemDesc: Keep talking smack.
+  itemThumbnail: {fileID: 2800000, guid: a6ae9b0c9c7343b48bf47cecee1a229b, type: 3}
+  itemWidth: 2
+  itemHeight: 2
+  itemRotation: 0
+  inventoryItem: {fileID: 0}
+  baseObj: {fileID: 8115431942994153941, guid: d51db55f6813319478e35773d4a3e821, type: 3}
+  instancedObj: {fileID: 0}
+  currentStorage: {fileID: 0}
+  slotX: 0
+  slotY: 0
+  previousStorage: {fileID: 0}
+  prevSlotX: 0
+  prevSlotY: 0
+  fireRate: 800
+  spread: 0
+  recoilSpeed: 100
+  recoilAngle: 12
+  verticalRecoil: 0.008
+  horizontalRecoil: 0.008

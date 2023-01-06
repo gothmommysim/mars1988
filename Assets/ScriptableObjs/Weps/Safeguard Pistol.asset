@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c490caa663430438214279831c7208, type: 3}
+  m_Name: Safeguard Pistol
+  m_EditorClassIdentifier: 
+  itemName: Safeguard
+  itemDesc: "Safeguard your family from the poison of lead. Safeguard\u2122 M&Q 2021."
+  itemThumbnail: {fileID: 2800000, guid: 582f91cfbf554e74c84090c455ef5a87, type: 3}
+  itemWidth: 2
+  itemHeight: 1
+  itemRotation: 0
+  inventoryItem: {fileID: 0}
+  baseObj: {fileID: 1283845985438308690, guid: 07188da37275af74f886abbf0316e71a, type: 3}
+  instancedObj: {fileID: 0}
+  currentStorage: {fileID: 0}
+  slotX: 0
+  slotY: 0
+  previousStorage: {fileID: 0}
+  prevSlotX: 0
+  prevSlotY: 0
+  fireRate: 600
+  spread: 0
+  recoilSpeed: 1
+  recoilAngle: 25
+  verticalRecoil: 0.015
+  horizontalRecoil: 0.01

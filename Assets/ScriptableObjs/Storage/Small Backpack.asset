@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801e468d232cf0c4ca3e42b3bdfe4d7e, type: 3}
+  m_Name: Small Backpack
+  m_EditorClassIdentifier: 
+  itemName: Starter Backpack
+  itemDesc: Just a small bag.
+  itemThumbnail: {fileID: 0}
+  itemWidth: 3
+  itemHeight: 3
+  itemRotation: 0
+  inventoryItem: {fileID: 0}
+  baseObj: {fileID: 4424942590024971173, guid: 804dce752b7ad5c4ba9b7d7635477eb9, type: 3}
+  instancedObj: {fileID: 0}
+  currentStorage: {fileID: 0}
+  slotX: 0
+  slotY: 0
+  previousStorage: {fileID: 0}
+  prevSlotX: 0
+  prevSlotY: 0
+  storageWidth: 8
+  storageHeight: 2
+  storageType: 0
