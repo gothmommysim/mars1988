@@ -4,7 +4,7 @@ mars 1988 is a short, narrative-driven first-person game developed in C# using U
 
 ## Gameplay 🎮
 
-In mars 1988, you are given tasks to complete from a stranger over the phone as you explore a unique, quirky world. The game focuses on dialogue rather than exploration.
+In mars 1988, you are given tasks to complete from a stranger over the phone as you explore a unique, quirky house in an alternate 1988. The game focuses on dialogue rather than exploration.
 
 ## Features ⚙️
 
