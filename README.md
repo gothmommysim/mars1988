@@ -20,6 +20,7 @@ The dialogue system in mars 1988 allows for choice-based conversation with non-p
 ### Inventory System 📦
 
 The inventory system in mars 1988 allows players to keep track of and use items they have acquired throughout the game.
+This feature was built utilizing a previous [grid-based inventory project](https://github.com/gothmommysim/Matryoshka-style-Grid-based-Inventory).
 
 ![Image of inventory system](https://raw.githubusercontent.com/gothmommysim/mars1988/main/gitmedia/marsinventoryscreenshot.png)
 
