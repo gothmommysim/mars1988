@@ -2,6 +2,8 @@
 
 mars 1988 is a short, narrative-driven first-person game developed in C# using Unity. This project was completed from start to finish in less than two weeks at the end of December 2022 and was made as a Christmas present for a close friend.
 
+tw: f slur. I am queer, my bestie is queer. It's used in a reclamatory way.
+
 ## Gameplay 🎮
 
 In mars 1988, you are given tasks to complete from a stranger over the phone as you explore a unique, quirky house in an alternate 1988.
