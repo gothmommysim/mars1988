@@ -6,6 +6,11 @@ mars 1988 is a short, narrative-driven first-person game developed in C# using U
 
 In mars 1988, you are given tasks to complete from a stranger over the phone as you explore a unique, quirky house in an alternate 1988.
 
+## Playthrough 🎬
+
+
+[![mars 1988 playthrough](https://user-images.githubusercontent.com/14210389/213978706-15f1e654-f1d7-4aa3-84b9-603cafc96557.png)](https://www.youtube.com/watch?v=-MKbHg5tsYg)
+
 ## Features ⚙️
 
 - Custom 3D models for game assets, created using Blender and painted textures in Photoshop
