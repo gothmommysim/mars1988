@@ -2,6 +2,9 @@
 
 mars 1988 is a short, narrative-driven first-person game developed in C# using Unity. This project was completed from start to finish in less than two weeks at the end of December 2022 and was made as a Christmas present for a close friend.
 
+You can play the game right now by downloading the [playable demo](https://github.com/gothmommysim/mars1988/releases/download/v1.0.0/mars1988-censored.zip).
+
+
 ## Gameplay 🎮
 
 In mars 1988, you are given tasks to complete from a stranger over the phone as you explore a unique, quirky house in an alternate 1988.
