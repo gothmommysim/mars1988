@@ -1,4 +1,4 @@
-# mars 1988 🌌
+# mars 1988
 
 mars 1988 is a short, narrative-driven first-person game developed in C# using Unity. This project was completed from start to finish in less than two weeks at the end of December 2022 and was made as a Christmas present for a close friend.
 
@@ -7,7 +7,7 @@ You can play the game right now by downloading the [**playable demo**](https://g
 
 ## Gameplay 🎮
 
-In mars 1988, you are given tasks to complete from a stranger over the phone as you explore a unique, quirky house in an alternate 1988.
+In mars 1988, you are given tasks to complete from a stranger over the phone as you explore a quirky house in alternate 1988.
 
 ## Playthrough 🎬
 
@@ -21,14 +21,14 @@ In mars 1988, you are given tasks to complete from a stranger over the phone as 
 
 ### Dialogue System 🗣
 
-The dialogue system in mars 1988 allows for choice-based conversation with non-playable characters. Unique sounds are synthesized based on the current vowel being spoken to add an extra layer of immersion.
+The dialogue system in mars 1988 allows for choice-based conversation with a non-playable character. Unique sounds are synthesized based on the current vowel being spoken.
 
 ![Image of dialogue system](https://raw.githubusercontent.com/gothmommysim/mars1988/main/gitmedia/marsdialoguescreenshot.png)
 
 ### Inventory System 📦
 
 The inventory system in mars 1988 allows players to keep track of and use items they have acquired throughout the game.
-This feature was built utilizing a previous [grid-based inventory project](https://github.com/gothmommysim/Matryoshka-style-Grid-based-Inventory).
+This feature was built utilizing my previous [grid-based inventory project](https://github.com/gothmommysim/Matryoshka-style-Grid-based-Inventory).
 
 ![Image of inventory system](https://raw.githubusercontent.com/gothmommysim/mars1988/main/gitmedia/marsinventoryscreenshot.png)
 
